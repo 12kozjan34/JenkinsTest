@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\kozja\\Desktop\\Test jenkins\\JenkinsTest\\Test\\Test\\Test.csproj": {}
+    "C:\\Users\\kozja\\Desktop\\Test\\JenkinsTest\\Test\\Test\\Test.csproj": {}
   },
   "projects": {
-    "C:\\Users\\kozja\\Desktop\\Test jenkins\\JenkinsTest\\Test\\Test\\Test.csproj": {
+    "C:\\Users\\kozja\\Desktop\\Test\\JenkinsTest\\Test\\Test\\Test.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\kozja\\Desktop\\Test jenkins\\JenkinsTest\\Test\\Test\\Test.csproj",
+        "projectUniqueName": "C:\\Users\\kozja\\Desktop\\Test\\JenkinsTest\\Test\\Test\\Test.csproj",
         "projectName": "Test",
-        "projectPath": "C:\\Users\\kozja\\Desktop\\Test jenkins\\JenkinsTest\\Test\\Test\\Test.csproj",
+        "projectPath": "C:\\Users\\kozja\\Desktop\\Test\\JenkinsTest\\Test\\Test\\Test.csproj",
         "packagesPath": "C:\\Users\\kozja\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\kozja\\Desktop\\Test jenkins\\JenkinsTest\\Test\\Test\\obj\\",
+        "outputPath": "C:\\Users\\kozja\\Desktop\\Test\\JenkinsTest\\Test\\Test\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\kozja\\AppData\\Roaming\\NuGet\\NuGet.Config",
