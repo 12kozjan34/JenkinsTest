@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "SXVhVPDRsZq+7617+5Qh2uPsWrN8l8Wt8fqE/zFDtlOTVRu3YRofd/1+8Q5WIwoUpNGSInOoVdLbeGc9krZMjA==",
+  "dgSpecHash": "HaKvADA3zPBix41rcEVGsF48bKe1nTl//6JaXPpul2Yk3PqmOVC5A1p5R828KA8AeBnjUSz8XiZmptiG8U7uLQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\kozja\\Desktop\\Test jenkins\\JenkinsTest\\Test\\Test\\Test.csproj",
+  "projectFilePath": "C:\\Users\\kozja\\Desktop\\Test\\JenkinsTest\\Test\\Test\\Test.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
