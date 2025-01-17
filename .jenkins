@@ -1,0 +1,41 @@
+
+pipeline {
+    agent any
+    environment {
+        DOCKER_IMAGE = 'myproject/image'
+        REGISTRY_CREDENTIALS = 'docker-hub-credentials-id'
+    }
+    stages {
+        stage('Checkout') {
+            steps {
+                checkout scm
+            }
+        }
+        stage('Build and Test .NET') {
+            steps {
+                script {
+                    sh 'dotnet build Test.sln'
+                }
+            }
+        }
+        stage('Docker Build') {
+            steps {
+                script {
+                    docker.build("${DOCKER_IMAGE}:${env.BUILD_NUMBER}")
+                }
+            }
+        }
+        stage('Deploy to Dev') {
+            steps {
+                script {
+                    docker.image("${DOCKER_IMAGE}:${env.BUILD_NUMBER}").run('-d -p 8080:80')
+                }
+            }
+        }
+    }
+    post {
+        always {
+            cleanWs()
+        }
+    }
+}
